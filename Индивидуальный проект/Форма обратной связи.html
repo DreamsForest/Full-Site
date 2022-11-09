@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="форма обратной связи.css">
+	<title>
+		Обратная связь
+	</title>
+</head>
+
+<body>
+	<h1>Форма обратной связи</h1>
+
+	<!-- Форма проверки -->
+	<form id="form">
+
+		<!-- Разделы -->
+
+		<div class="form-control">
+			<label for="name" id="label-name">
+				ФИО
+			</label>
+
+			<!-- Строка ввода текста -->
+
+			<input type="text"
+				id="name"
+				placeholder="Введите фамилию, имя, отчество" />
+		</div>
+        <div class="form-control">
+			<label for="name" id="label-name">
+				Ваша почта
+			</label>
+
+			<!-- Строка ввода текста -->
+
+			<input type="text"
+				id="name"
+				placeholder="Введите вашу почту" />
+		</div>
+        <div class="form-control">
+			<label>
+				Ваш пол
+			</label>
+			<!-- Чекер -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Мужской</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Женский</input>
+			</label>
+		</div>
+		<div class="form-control">
+			<label for="comment">
+				Оставить коментарий
+			</label>
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+		<button type="submit" value="submit">
+			Отправить
+		</button>
+	</form>
+</body>
+
+</html>
